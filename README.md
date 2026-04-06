@@ -39,11 +39,11 @@ http://localhost:8000/time
 ## 🐳 Usar con Docker
 1.Construir la imagen localmente
 ```
-docker build -t matias654/fastapi-chile-time:latest .
+docker build -t matias654/fastapi-time:latest .
 ```
 2.Ejecutar el contenedor
 ```
-docker run -p 8000:8000 matias654/fastapi-chile-time:latest
+docker run -p 8000:8000 matias654/fastapi-time:latest
 ```
 3.Abrir en el navegador:
 ```
@@ -51,8 +51,8 @@ http://localhost:8000/time
 ```
 4.Descargar la imagen desde Docker Hub
 ```
-docker pull matias654/fastapi-chile-time:latest
-docker run -p 8000:8000 matias654/fastapi-chile-time:latest
+docker pull matias654/fastapi-time:latest
+docker run -p 8000:8000 matias654/fastapi-time:latest
 ```
 ## 🧪 Tests
 
