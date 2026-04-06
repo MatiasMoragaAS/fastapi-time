@@ -1,5 +1,8 @@
 # FastAPI Chile Time ⏰
 
+linter y pytest ![Main Workflow](https://github.com/MatiasMoragaAS/fastapi-time/actions/workflows/main.yml/badge.svg)
+
+
 Proyecto académico con **FastAPI** y **Docker** que expone un endpoint para obtener la hora oficial de Chile.  
 Incluye integración con **GitHub Actions** para CI/CD: linting, tests y despliegue automático de la imagen en Docker Hub.
 
