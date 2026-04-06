@@ -11,7 +11,7 @@ Incluye integración con **GitHub Actions** para CI/CD: linting, tests y desplie
 ## 🚀 Características
 - API construida con **FastAPI**.
 - Endpoint `/time` que devuelve la hora local de Chile en formato `YYYY-MM-DD HH:MM:SS`.
-- Imagen Docker ligera (<200 MB).
+- Imagen Docker.
 - Workflow de GitHub Actions con:
   - Linting (`flake8`)
   - Tests (`pytest`)
